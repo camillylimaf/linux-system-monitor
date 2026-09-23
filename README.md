@@ -41,9 +41,10 @@ chmod +x monitor.sh
 
 ## Project structure
 
+```
 linux-system-monitor/
 ├── monitor.sh
 ├── README.md
 └── logs/
-    └── system-monitor.logO
-
+    └── system-monitor.log
+```
