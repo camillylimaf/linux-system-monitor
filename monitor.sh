@@ -35,7 +35,7 @@ echo ""
 
 STATUS="OK"
 
-if (( $(echo "$CPU >= 80" | bc -l) )); then
+if awk "BEGIN {exit !($CPU >= 80)}"; then
     echo "WARNING: CPU usage is high!"
     STATUS="WARNING"
 fi
