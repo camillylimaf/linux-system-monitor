@@ -23,9 +23,8 @@ A Bash-based system monitoring tool developed to practice Linux administration, 
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/camillylimaf/linux-system-monitor.git
-\`\`\`
+
 
 ### 2. Enter the project directory
 
